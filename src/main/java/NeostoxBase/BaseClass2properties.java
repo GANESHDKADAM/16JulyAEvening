@@ -22,6 +22,8 @@ public class BaseClass2properties
 		
 		
 		
+		
+		
 		Thread.sleep(1000);
   }
 
