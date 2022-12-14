@@ -18,12 +18,6 @@ public class BaseClass2properties
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();  
 		driver.get(Utilitycommonmethod2properties.readdatafromPropertyFile("url")); 
-		
-		
-		
-		
-		
-		
 		Thread.sleep(1000);
   }
 
