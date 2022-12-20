@@ -28,7 +28,7 @@ public class NeostoxHomePage1
 		okbutton.click();
 		Reporter.log("clicking on ok button of Popup",true);
 		Utilitycommonmethod.wait(driver, 1000);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		closebutton.click();
 		Reporter.log("clicking on Close button of Popup",true);
 		Utilitycommonmethod.wait(driver, 1000);

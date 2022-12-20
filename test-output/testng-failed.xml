@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HDFCTESTCLASS.hdfcTestClass">
+      <class name="NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance2properties2Listener">
         <methods>
-          <include name="hdfcNetBankingLogin"/>
-          <include name="f"/>
-          <include name="lunchbrowser"/>
+          <include name="launchbrowser"/>
+          <include name="logOutFromNeostox"/>
+          <include name="logintoNeostox"/>
+          <include name="ValidateAccBalance"/>
+          <include name="closebrowser"/>
         </methods>
-      </class> <!-- HDFCTESTCLASS.hdfcTestClass -->
+      </class> <!-- NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance2properties2Listener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
